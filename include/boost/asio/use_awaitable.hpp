@@ -146,9 +146,9 @@ struct use_awaitable_t
  * See the documentation for boost::asio::use_awaitable_t for a usage example.
  */
 #if defined(GENERATING_DOCUMENTATION)
-constexpr use_awaitable_t<> use_awaitable;
+BOOST_INLINE_CONSTEXPR use_awaitable_t<> use_awaitable;
 #else
-constexpr use_awaitable_t<> use_awaitable(0, 0, 0);
+BOOST_INLINE_CONSTEXPR use_awaitable_t<> use_awaitable(0, 0, 0);
 #endif
 
 } // namespace asio

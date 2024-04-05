@@ -705,7 +705,7 @@ inline auto operator|(Head head, Tail&& tail)
 /**
  * See the documentation for boost::asio::deferred_t for a usage example.
  */
-constexpr deferred_t deferred;
+BOOST_INLINE_CONSTEXPR deferred_t deferred;
 
 } // namespace asio
 } // namespace boost

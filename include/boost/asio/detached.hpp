@@ -95,7 +95,7 @@ public:
 /**
  * See the documentation for boost::asio::detached_t for a usage example.
  */
-constexpr detached_t detached;
+BOOST_INLINE_CONSTEXPR detached_t detached;
 
 } // namespace asio
 } // namespace boost
